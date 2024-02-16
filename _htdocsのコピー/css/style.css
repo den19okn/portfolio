@@ -1,0 +1,1146 @@
+@charset "UTF-8";
+/**基本ページここから↓**/
+body {
+	color: #033330;
+	background: linear-gradient(0deg, rgb(11, 186, 175), rgb(255, 255, 255));　
+}
+header,footer, #breadcrumb,
+#graphic,#about,#news,#lesson,
+#event,#trial,#Q＆A{
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#main,#breadcrumb{
+	width: 1280px;
+	padding: 40px;
+	background-color: rgba(255, 255, 255, 0.8);
+	overflow: hidden;
+}
+#breadcrumb{
+	font-family: Aquawax;
+	text-align: right;
+}
+#breadcrumb ol li{
+	list-style-type: none;
+	display: inline;
+}
+#breadcrumb ol li a{
+	color: #0BBAAF;
+}
+#main{
+	font-family: "A-OTF Futo Go B101 Pr5";
+	font-size: 24px;
+	overflow: hidden;
+}
+header{
+	width: 1280px;
+	height:180px;
+	padding: 40px 0 40px 0;
+}
+.headerIcon01,.headerIcon02{
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	width: 60px;
+	padding: 0 0 0 0;
+}
+.headerIcon01{
+	margin: 0 0 0 0;
+}
+.headerIcon02{
+	margin: 0 0 0 30px;
+}
+nav ul li.headerIcon01:hover{
+opacity:0.5;
+transition:0.3s;
+}
+nav ul li.headerIcon02:hover{
+opacity:0.5;
+transition:0.3s;	
+}
+h1 {
+	float: left;
+}
+nav{
+	padding: 0 0 0 310px;
+}
+nav ul {
+	height: 100px;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+nav ul li {
+	width: 130px;
+	float: left;
+	margin: 40px 0 0 0;
+}
+nav ul li #nav_about a,
+nav ul li #nav_news a, 
+nav ul li #nav_lesson a, 
+nav ul li #nav_event a, 
+nav ul li #nav_trial a, 
+nav ul li #nav_qanda a{
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+nav ul li#nav_about{
+	background: url(../img/common/ABOUT.png) no-repeat;
+	margin-left: 10px;
+}
+nav ul li#nav_about a{
+	width: 120px;
+    height: 40px;
+    background: url(../img/common/ABOUT.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+nav ul li#nav_about a:hover {
+    background-image: url(../img/common/ABOUThover.png);
+}
+nav ul li#nav_news{
+	background: url(../img/common/NEWS.png) no-repeat;
+	margin-left:14px;
+}
+nav ul li#nav_news a{
+	width: 120px;
+    height: 40px;
+    background: url(../img/common/NEWS.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+nav ul li#nav_news a:hover {
+    background-image: url(../img/common/NEWShover.png);
+}
+nav ul li#nav_lesson{
+	background: url(../img/common/LESSON.png) no-repeat;
+	margin-left:-5px;
+}
+nav ul li#nav_lesson a{
+	width: 120px;
+    height: 40px;
+    background: url(../img/common/LESSON.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+nav ul li#nav_lesson a:hover {
+    background-image: url(../img/common/LESSONhover.png);
+}
+nav ul li#nav_event{
+	background: url(../img/common/EVENT.png) no-repeat;
+	margin-left:21px;
+}
+nav ul li#nav_event a{
+	width: 120px;
+    height: 40px;
+    background: url(../img/common/EVENT.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+nav ul li#nav_event a:hover {
+    background-image: url(../img/common/EVENThover.png);
+}
+nav ul li#nav_trial{
+	background: url(../img/common/TRIAL.png) no-repeat;
+	margin-left:5px;
+}
+nav ul li#nav_trial a{
+	width: 120px;
+    height: 40px;
+    background: url(../img/common/TRIAL.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+nav ul li#nav_trial a:hover {
+    background-image: url(../img/common/TRIALhover.png);
+}
+nav ul li#nav_qanda{
+	background: url(../img/common/Q＆A.png) no-repeat;
+	margin-left:-7px;
+}
+nav ul li#nav_qanda a{
+	width: 120px;
+    height: 40px;
+    background: url(../img/common/Q＆A.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+nav ul li#nav_qanda a:hover {
+    background-image: url(../img/common/Q＆Ahover.png);
+}
+footer {
+	color: #FFFFFF;
+	text-align: center;
+	width: 1280px;
+	height: 180px;
+	margin: 0 auto;
+	padding: 0;
+}
+#footerInstagramIcon{
+	width: 135px;
+	height: 135px;
+	position: relative;
+	top: -68px;
+	left: 1105px;
+}
+#footerInstagramIcon:hover{
+top: -80px;
+transition:0.3s;
+}
+.pagetop{
+	margin: -60px 0 0 0;
+	text-align: right;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.pagetop a {
+    display: block;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.pagetop a:hover {
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    padding:5px 10px;
+}
+#copyright{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: 'Kodchasan', sans-serif;
+}
+#main h2{
+	color: #444444;
+	font-size: 64px;
+	text-align: center;
+	font-family: Aquawax;
+}
+/**基本ページここまで↑**/
+
+
+
+/**ABOUTページここから↓**/
+h3{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+span{
+	font-weight: bold;
+	font-size: 64px;
+}
+.concept{
+	overflow: hidden;
+	margin-bottom: 80px;
+	line-height: 2;
+}
+.concept ul li{
+	list-style-type: none;
+	padding-left: 0;
+}
+ul li time{
+	color: #0BBAAF;
+	font-weight: bold;
+}
+.indent{
+	text-indent: 120px;
+}
+.image_right{
+	display: block;
+	float: right;
+	margin: 0 0 0 35px;
+}
+.image_left{
+	display: block;
+	float: left;
+	margin: 0 35px 0 0;
+}
+.bold{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 0 630px;
+}
+.flag{
+	margin-top: 80px;
+}
+h4{
+	text-align: center;
+	margin:10px 0 -10px 0;
+}
+.big{
+	font-size: 40px;
+}
+/**ABOUTページここまで↑**/
+
+
+
+/**NEWSページここから↓**/
+#new{
+	width:895px;
+	height: 320px;
+	margin: 80px 0 40px 0;
+	font-size: 20px;
+	float: left;
+}
+#new a{
+	text-decoration: none;
+}
+#new  dl{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0 20px 10px;
+	border-bottom: 2px dotted #0BBAAF;
+	color: #000;
+	align-items: center;
+	position: relative;
+}
+.firstdl{
+	border-top: 2px dotted #0BBAAF;
+}
+#new dl dt{
+	color: #0BBAAF;
+	font-weight: bold; 
+}
+.news_new{
+	position:absolute;
+	top: 20px;
+	left: 180px;
+}
+.news_title{
+	position:absolute;
+	top: 20px;
+	left: 280px;
+}
+.news_title:hover{
+	color: #0BBAAF;
+	font-weight: bold;
+}
+.news_jpgIcon{
+	position:absolute;
+	top: 15px;
+	left: 850px;
+}
+#category{
+	width: 265px;
+	height: 400px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 40px;
+	color: #444;
+	background-color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	float: right;
+}
+#category a:link{
+	color: #444444;
+}
+#category a:visited{
+	color: #2f4f4f;
+}
+#category a:hover{
+	color: #0BBAAF;
+}
+#category ul{
+	list-style-type: none;
+}
+#category ul li{
+	margin: 20px 0 20px 40px;
+}
+#category p{
+	font-size: 32px;
+	height: 50px;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+.news_arrow{
+	float: left;
+	margin: 10px 0 0 10px;
+}
+.charactor{
+	width: 140px;
+	height: 200px;
+	margin-left: 700px;
+}
+.hide-area{
+	display: none;
+}
+/**NEWSページここまで↑**/
+
+
+
+/**LESSONページここから↓**/
+.lessonTitle{
+	margin-top: 80px;
+}
+.lesson_text{
+	text-align: center;
+}
+.choose_course{
+	font-size: 40px;
+	overflow: hidden;
+	position: relative;
+	margin-left: 30px;
+}
+.choose_course001{
+	position: absolute;
+	top: 5px;
+	left: 115px;
+}
+.choose_course002{
+	position: absolute;
+	top: 5px;
+	left: 115px;
+}
+#lessonPlan001{
+	width: 1140px;
+	height: 650px;
+	margin: 20px 30px 20px 30px;
+	padding: 40px;
+	background-color: #0BBAAF;
+	overflow: hidden;
+}
+#lessonPlanText{
+	width: 310px;
+	height: 500px;
+	margin: 40px;
+	font-size: 24px;
+	float: left;
+	overflow: hidden;
+	color: #fff;
+	line-height: 1.5em;	
+}
+#lessonPlanIcons{
+	width: 655px;
+	height: 570px;
+	padding-left: 40px;
+	border-left: 15px dotted #E4E81C;
+	font-size: 16px;
+	float: right;
+	overflow: hidden;
+	color: #fff;
+}
+.lessonPlanIcons_box figure{
+	margin: 0 0 40px 40px;
+	width: 160px;
+	text-align: center;
+	float: left;
+}
+.tadasigaki{
+	font-size: 16px;
+	margin-left: 30px;
+}
+.yajirushiicon{
+	text-align: center;
+	margin: 20px 0;
+}
+.lessonPlanText001{
+	text-align: center;
+	margin: 0 140px;
+}
+#lessonPlan002{
+	width: 1140px;
+	height: 700px;
+	margin: 20px 30px 20px 30px;
+	padding: 40px;
+	background-color: #0BBAAF;
+	overflow: hidden;
+}
+#lessonPlanCourses{
+	width: 670px;
+	height: 620px;
+	padding-left: 40px;
+	font-size: 16px;
+	float: right;
+	overflow: hidden;
+	color: #000;
+}
+.course{
+	width: 630px;
+	height: 180px;
+	background-color: #fff;
+	margin-bottom: 40px;
+	display: flex;
+	border-radius: 20px;
+	position: relative;
+}
+.course img{
+	width: 220px;
+	height: 180px;
+	padding: 55px;
+}
+.course div ul{
+	margin: 40px 0 40px 10px;
+}
+.course div ul li{
+	list-style-type: disc;
+}
+#exclution{
+	position: absolute;
+	top: 155px;
+	left: 220px;
+	font-size: 13px;
+}
+.price{
+	width: 180px;
+	height: 180px;
+	line-height: 250%;
+	position: absolute;
+	top: 0;
+	left: 450px;
+	padding-top: 40px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #E4E81C;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.money{
+	font-size: 38px;
+	font-family: "A-OTF Futo Go B101 Pr5";
+}
+.course span{
+	font-size: 38px;
+	font-family: "A-OTF Futo Go B101 Pr5";
+}
+#gallery img{
+	float: left;
+	margin: 30px;
+}
+/**LESSONページここまで↑**/
+
+
+
+/**EVENTページここから↓**/
+.text{
+	margin-top: 80px;
+}
+.kidsEvent{
+	text-align: center;
+	font-size: 32px;
+	margin: 30px 0 100px 0;
+	line-height: 3em;
+}
+.kidsEvent_text{
+	text-align: center;
+	font-size: 32px;
+	line-height: 2em;
+}
+.font48{
+	font-size: 48px;
+}
+.imageEvent001{
+	margin: 50px 100px;
+}
+.eventApply{
+	text-align: center;
+}
+.eventApply img:hover{
+	opacity:0.5;
+	transition:0.3s;
+}
+.eventApply img{
+	width: 300px;
+	height: 70px;
+	margin: 100px 0 100px 0;
+}
+.kidsEvent_text h3{
+	font-size: 64px;
+	margin-top: 60px;
+}
+#outdoorEvent{
+	width: 1280px;
+	height: 738px;
+	margin: 40px -40px 0 -40px;
+	position: relative;
+	background-image: url(../img/04event/event003.png);
+}
+#eventInfo{
+	width: 700px;
+	height: 600px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 30px;
+	position: absolute;
+	top: 60px;
+	left: 300px;
+	padding: 40px;
+	font-size: 20px;
+}
+#eventInfo dt{
+	color: #0BBAAF;
+	font-weight: bold; 
+}
+#eventInfo dd{
+	text-indent: 2em;
+}
+dd .secondLine{
+	text-indent: 4em;
+}
+#eventphoto{
+	margin: 60px;
+}
+#eventphoptos001{
+	margin: 40px 20px 40px -40px;
+}
+#eventphoptos002{
+	margin: 40px 20px 40px 20px;
+}
+#eventphoptos003{
+	margin: 40px -60px 40px 20px;
+}
+.element {
+  /* 最初は非表示 */
+  transform: translateY(100px);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 1s, opacity 1s, visibility 1s;
+  /* （装飾用スタイル） */
+  width: 100%;
+  height: 690px;
+}
+/* フェードイン時に入るクラス */
+.is-fadein {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+/**EVENTページここまで↑**/
+
+
+
+/**TRIALページここから↓**/
+#trialflow{
+	overflow: hidden;
+}
+#step01text{
+	width: 400px;
+	height: 250px;
+	background-color: #35BEB6;
+	color: #fff;
+	float: left;
+	margin: 60px 0 60px 250px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+#step02text{
+	width: 400px;
+	height: 250px;
+	background-color: #35BEB6;
+	color: #fff;
+	float: left;
+	margin: 60px 0 60px 250px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+#step03text{
+	width: 400px;
+	height: 250px;
+	background-color: #35BEB6;
+	color: #fff;
+	float: left;
+	margin: 60px 0 60px 250px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+#step04text{
+	width: 400px;
+	height: 250px;
+	background-color: #35BEB6;
+	color: #fff;
+	float: left;
+	margin: 60px 0 60px 250px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+#step05text{
+	width: 400px;
+	height: 250px;
+	background-color: #35BEB6;
+	color: #fff;
+	float: left;
+	margin: 60px 0 60px 250px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+#step01text p{
+	width: 400px;
+	height: 145px;
+	margin: 20px 0 20px 0;
+	text-align: center;
+	line-height: 50px;
+	font-size: 32px;
+}
+#step02text p{
+	margin: 65px 55px 80px 55px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 32px;
+}
+#step03text p{
+	margin: 65px 55px 80px 55px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 32px;
+}
+#step04text p{
+	margin: 55px 55px 80px 55px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 32px;
+}
+#step05text p{
+	margin: 55px 55px 80px 55px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 32px;
+}
+#step01text a{
+	width: 230px;
+	height: 40px;
+	margin: 40px 85px 30px 85px;
+}
+#step01text img:hover{
+	opacity:0.8;
+	transition:0.3s;
+}
+#step01img img{
+	width: 300px;
+	height: 250px;
+	float: right;
+	margin:60px 250px 60px 0;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#step01text span{
+	font-size: 48px;
+}
+.Polygon8{
+	display: inline-block;
+	width: 1200px;
+	height: 31px;
+	/*border: 1px solid #f00;*/
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/**TRIALページここまで↑**/
+
+
+
+/**TRIAL無料体験レッスンお申込みページここから↓**/
+#applyForm{
+	width: 1000px;
+	height: 2700px;
+	background-color: #fff;
+	border-radius: 20px;
+	margin: 60px 100px;
+	padding: 30px 110px 60px 110px;
+	overflow: hidden;
+}
+.formDivision{
+	font-size: 28px;
+	font-weight: bold;
+	 margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+input[type=text]{
+	border: none;
+	border-radius: 10px;
+	margin:10px 0 20px 30px;
+	width: 300px;
+	height: 40px;
+	background-color: #D9D9D9;
+}
+input[type=tel]{
+	border: none;
+	border-radius: 10px;
+	margin:10px 0 20px 30px;
+	width: 600px;
+	height: 40px;
+	background-color: #D9D9D9;
+}
+input[type=email]{
+	border: none;
+	border-radius: 10px;
+	margin:10px 0 20px 30px;
+	width: 600px;
+	height: 40px;
+	background-color: #D9D9D9;
+}
+input[type=date]{
+	border: none;
+	font-size: 16px;
+	color: #444;
+	border-radius: 10px;
+	margin:10px 0 20px 30px;
+	padding: 5px 0 5px 60px;
+	width: 260px;
+	height: 40px;
+	background-color: #D9D9D9;
+}
+textarea{
+	border: none;
+	border-radius: 10px;
+	margin:10px 0 20px 30px;
+	width: 750px;
+	height: 150px;
+	background-color: #D9D9D9;
+}
+input[placeholder="選択してください"]{
+	font-size: 16px;
+	color: #444;
+	margin:10px 0 20px 30px;
+	padding: 5px 0 5px 60px;
+}
+.select_box{
+	border: none;
+	border-radius: 10px;
+	margin:10px 0 20px 30px;
+	padding: 5px 0 5px 60px;
+	width: 300px;
+	height: 40px;
+	background-color: #D9D9D9;
+	font-size: 16px;
+	color: #444;
+}
+input[type=radio]{
+	margin: 10px 10px 20px 30px;	
+	font-weight: normal;
+}
+input[type=checkbox]{
+	margin: 10px 10px 20px 30px;	
+}
+.formcontents{
+	margin-top: 40px;
+	overflow: hidden;
+}
+.formcontents img{
+	position: absolute;
+	left: 630px;
+	top: 1837px;
+}
+#float_box{
+	overflow: hidden;
+}
+form span{
+	color: #ff0000;
+	font-size: 24px;
+}
+.Btn_left{
+	display: block;
+	float: left;
+	margin:60px 0 60px 75px;
+}
+.Btn_right{
+	display: block;
+	float: right;
+	margin:60px 75px 60px 0;
+}
+.Btn_left:hover{
+	opacity:0.5;
+	transition:0.3s;
+}
+.Btn_right:hover{
+	opacity:0.5;
+	transition:0.3s;
+}
+input[type="reset"] {
+	font-size: 0;
+	width: 300px;
+	height: 63px;
+	position: absolute;
+	background: url(../img/07form001/resetBtn.png) no-repeat;
+}
+/**TRIAL無料体験レッスンお申込みページここまで↑**/
+
+
+
+/**Q&Aページここから↓**/
+#Q＆A_leftBlock{
+	width: 520px;
+	margin: 40px;
+	float: left;
+}
+#Q＆A_rightBlock{
+	width: 520px;
+	margin: 40px;
+	float: right;
+}
+#flameForFloat{
+	overflow: hidden;
+}
+.Q＆ATitle{
+	display: block;
+	width: 520px;
+	height: 70px;
+	color: #444;
+	border-bottom: 8px solid #0BBAAF;
+	text-align: center;
+	font-size: 32px;
+}
+/*=========
+accordion
+=========*/
+.accordion_area {}
+.accordion_area .accordion_one .ac_header {
+  background-color: #ABE5E2;
+  border: 1px solid #ccc;
+  padding: 1.5rem 4rem 1.5rem 2rem;
+  position: relative;
+  z-index: +1;
+  cursor: pointer;
+  transition: .2s;
+}
+.accordion_area .accordion_one .ac_header:not(.open):hover {
+  background-color: #0BBAAF;
+}
+.accordion_area .accordion_one .ac_header .i_box {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+}
+.accordion_area .accordion_one .ac_header .i_box:before, .accordion_area .accordion_one .ac_header .i_box:after {
+  position: absolute;
+  content: "";
+  margin: auto;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.accordion_area .accordion_one .ac_header .i_box:before {
+  border-top: 5px solid #E4E81C;
+  width: 20px;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.accordion_area .accordion_one .ac_header .i_box:after {
+  border-left: 5px solid #E4E81C;
+  width: 0;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  right: 9px;
+  transition: .3s;
+}
+.accordion_area .accordion_one .ac_header.open .i_box:after {
+  height: 0;
+}
+.accordion_area .accordion_one .ac_inner {
+  display: none;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  background: #fff;
+}
+@media screen and (max-width: 736px) {
+  .accordion_area .accordion_one .ac_header {
+    padding: 1.5rem 2rem 1.5rem 1.0rem;
+  }
+  .accordion_area .accordion_one .ac_header .i_box {
+    right: 0.8rem;
+    width: 15px;
+    height: 15px;
+    margin-top: -7px;
+  }
+  .accordion_area .accordion_one .ac_header .i_box:before {
+    width: 15px;
+  }
+  .accordion_area .accordion_one .ac_header .i_box:after {
+    height: 15px;
+    right: 7px;
+  }
+  .accordion_area .accordion_one .ac_inner {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+/*=========
+faq
+=========*/
+.p-faq__headinner {
+  display: block;
+  padding-left: 35px;
+  position: relative;
+  line-height: 1.5;
+}
+.p-faq__headinner::before {
+  position: absolute;
+  left: -20px;
+  top: -8px;
+  content:url(../img/06Q＆A/QIcon.png);
+}
+.p-faq__headinner p.p-faq__q-txt {
+  font-size: 20px;
+  color: #444;
+}
+@media screen and (max-width: 736px) {
+  .p-faq__headinner {
+    padding-left: 25px;
+  }
+  .p-faq__headinner::before {
+    font-size: 14px;
+  }
+  .p-faq__headinner p.p-faq__q-txt {
+    font-size: 14px;
+  }
+}
+.p-faq__bodyinner {
+  display: block;
+  padding-left: 35px;
+  position: relative;
+  line-height: 1.5;
+}
+/*
+.p-faq__bodyinner::before {
+  position: absolute;
+  left: 0;
+  content: "A．";
+  color: #de0000;
+  font-size: 20px;
+  font-weight: bold;
+}*/
+.p-faq__bodyinner p.p-faq__a-txt {
+  font-size: 20px;
+}
+@media screen and (max-width: 736px) {
+  .p-faq__bodyinner {
+    padding-left: 25px;
+  }
+  .p-faq__bodyinner::before {
+    font-size: 14px;
+  }
+  .p-faq__bodyinner p.p-faq__a-txt {
+    font-size: 14px;
+  }
+}
+/**=========
+base
+=========**/
+/**html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: YuGothic, "游ゴシック体", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  letter-spacing: .025em;
+  line-height: 1.8;
+}**/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.s_section {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 2rem 10px;
+}
+.gutter>*:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 736px) {
+h2 {
+    font-size: 16px;
+  }
+}
+ul.list-disc {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.list-disc__item {
+  margin-left: 1.5em;
+  list-style: disc;
+}
+a._a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 2.0em 1.0em;
+  border: 1px solid #222222;
+  background: linear-gradient(to right, #ffffff 50%, #222222 50%);
+  background-size: 200% auto;
+  box-sizing: border-box;
+  color: #222222;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  transition: .3s;
+  position: relative;
+}
+a._a:after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+}
+a._a:hover {
+  color: #ffffff;
+  background-position: -100% 0;
+}
+/**Q&Aページここまで↑**/
+
+
+
+/**問い合わせフォームここから↓**/
+.qanda_tadasigaki{
+	font-size: 20px;
+	text-align: center;
+}
+#Q＆AForm{
+	width: 1000px;
+	height: 1750px;
+	background-color: #fff;
+	border-radius: 20px;
+	margin: 60px 100px;
+	padding: 30px 110px 60px 110px;
+	overflow: hidden;
+}
+#qandakind{
+	display: inline-block;
+	float: none;
+}
+/**問い合わせフォームここまで↑**/
+
+
+
+/**イベント申込みフォームここから↓**/
+#eventApplyForm{
+	width: 1000px;
+	height: 1530px;
+	background-color: #fff;
+	border-radius: 20px;
+	margin: 60px 100px;
+	padding: 30px 110px 60px 110px;
+	overflow: hidden;
+}
+.select_box_event{
+	border: none;
+	border-radius: 10px;
+	margin:10px 0 20px 30px;
+	padding: 5px 0 5px 20px;
+	width: 350px;
+	height: 40px;
+	background-color: #D9D9D9;
+	font-size: 16px;
+	color: #444;
+}
+/**イベント申込みフォームここまで↑**/
